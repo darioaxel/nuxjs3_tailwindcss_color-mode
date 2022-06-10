@@ -1,4 +1,4 @@
-# nuxjs3_tailwindcss_color-mode
+# NUXT3 Tailwindcss color-mode
 Small project just to test the implementation of color-mode with tailwindcss
 
 
