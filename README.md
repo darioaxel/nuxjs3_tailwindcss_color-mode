@@ -1,35 +1,42 @@
-# NUXT3 Tailwindcss color-mode
-Small project just to test the implementation of color-mode with tailwindcss
+# Nuxt 3 Minimal Starter
 
+Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-## TailwindCSS
-Adding TailwindCSS to our project:
+## Setup
+
+Make sure to install the dependencies:
+
 ```bash
-yarn add -D @nuxtjs/tailwindcss  
-yarn add @nuxtjs/tailwindcss
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install --shamefully-hoist
 ```
-Now we need to include a a module to be build in nuxt.config.ts :
-```
-   buildModules: ['@nuxtjs/tailwindcss']
-```
-This module needs a tailwind.config.js file to show the context help inline. We can do it automatically with:
+
+## Development Server
+
+Start the development server on http://localhost:3000
+
 ```bash
-npx tailwindcss init
+npm run dev
 ```
-As a text app.vue is filled with:
-```html
-<template>
-  <div class=" text-center text-2xl text-orange-400">
-    This is a test of Tailwindcss with Nuxt3 color-module
-  </div>
-</template>
-```
-## Nuxt3 Color-mode
-Adding color-mode to our project:
+
+## Production
+
+Build the application for production:
+
 ```bash
-yarn add -D @nuxtjs/color-mode 
+npm run build
 ```
-Now we need to include a a module to be build in nuxt.config.ts :
-```javascript
-   buildModules: ['@nuxtjs/color-mode']
+
+Locally preview production build:
+
+```bash
+npm run preview
 ```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
