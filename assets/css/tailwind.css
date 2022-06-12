@@ -2,12 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.theme-light {
+.light-mode {
   --background: #f8f8f8;
   --text: #313131;
 }
 
-.theme-dark {
+.dark-mode {
   --background: #313131;
   --text: #f8f8f8;
 }
+
+.sepia-mode {
+  --background-color: #f1e7d0;
+  --text: #433422;
+  }

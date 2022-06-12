@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     'components/**/*.{vue,js,ts}',
@@ -8,13 +9,22 @@ module.exports = {
     'plugins/**/*.{js,ts}',
     'nuxt.config.{js,ts}',
   ],
-  theme: {
-    extend: {
-      colors: {        
-        themeBackground: 'var(--background)',        
-        themeText: 'var(--text)',      
-      },    
-    },
-  },
-  plugins: [],
+  darkMode: "class",
+  variants: {
+    backgroundColor: [
+      "dark",
+      "dark-hover",
+      "dark-group-hover",
+      "dark-even",
+      "dark-odd"
+    ],
+    borderColor: [
+      "dark", 
+      "dark-focus", 
+      "dark-focus-within"],
+    textColor: [
+      "dark", 
+      "dark-hover", 
+      "dark-active"]
+  }
 };

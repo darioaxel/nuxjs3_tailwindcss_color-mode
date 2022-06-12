@@ -86,5 +86,6 @@ declare global {
   const useSlots: typeof import('vue')['useSlots']
   const useTransitionState: typeof import('vue')['useTransitionState']
   const useColorMode: typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']
+  const definePageMeta: typeof import('../../node_modules/nuxt/dist/pages/runtime/composables')['definePageMeta']
 }
 export {}
