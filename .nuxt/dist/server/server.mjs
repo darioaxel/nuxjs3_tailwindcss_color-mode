@@ -126,7 +126,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/.nuxt/layouts.mjs ($id_ba14692f)
 // - /layouts/default.vue ($id_7689e89d)
-// - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
+// - /app.vue ($id_2b46e842)
 // Dependencies: 
 
 // --------------------
@@ -2824,7 +2824,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /layouts/default.vue ($id_7689e89d)
-// - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
+// - /app.vue ($id_2b46e842)
 // Dependencies: 
 
 // --------------------
@@ -2866,7 +2866,7 @@ __vite_ssr_exports__.default = ".btn[data-v-0e901b8a]{border-radius:.25rem;font-
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /layouts/default.vue ($id_7689e89d)
-// - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
+// - /app.vue ($id_2b46e842)
 // Dependencies: 
 
 // --------------------
@@ -3860,17 +3860,17 @@ __vite_ssr_exports__.default = ".bg-white[data-v-1da4697d]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/node_modules/nuxt/dist/app/entry ($id_10060237)
 // Dependencies: 
-// - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
+// - /app.vue ($id_2b46e842)
 // --------------------
 const $id_a1d30970 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/app.vue");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
 }
 
 
 // --------------------
-// Request: /node_modules/nuxt/dist/pages/runtime/app.vue
+// Request: /app.vue
 // Parents: 
 // - /@id/virtual:nuxt:/home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/.nuxt/app-component.mjs ($id_a1d30970)
 // Dependencies: 
@@ -3879,7 +3879,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
-const $id_6c61010f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_2b46e842 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
 
 const _sfc_main = {}
@@ -3912,19 +3912,19 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("node_modules/nuxt/dist/pages/runtime/app.vue")
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("app.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/app.vue"]]);
 }
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/layout.mjs
 // Parents: 
-// - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
+// - /app.vue ($id_2b46e842)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
@@ -4004,7 +4004,7 @@ const _sfc_main = {
         content: "Nuxt.js with TailwindCSS example",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon" }],
   },
 };
 
@@ -4014,10 +4014,8 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_nuxt = __vite_ssr_import_0__.resolveComponent("nuxt")
-
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "dark:bg-gray-800 dark:text-gray-200" }, _attrs))}><p class="p-4 pb-2"><select class="border w-24 h-8 dark:bg-gray-900 dark:text-white dark:border-gray-700"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></p>`)
-  _push(__vite_ssr_import_1__.ssrRenderComponent(_component_nuxt, { class: "mx-auto p-4" }, null, _parent))
+  __vite_ssr_import_1__.ssrRenderSlot(_ctx.$slots, "default", { class: "mx-auto p-4" }, null, _push, _parent)
   _push(`</div>`)
 }
 
@@ -4112,7 +4110,7 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_bc2d74a1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/.nuxt/app-component.mjs": $id_a1d30970,
-  "/node_modules/nuxt/dist/pages/runtime/app.vue": $id_6c61010f,
+  "/app.vue": $id_2b46e842,
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_39003883,
   "/@id/virtual:nuxt:/home/darioaxel/Trabajo/nuxjs3_tailwindcss_color-mode/.nuxt/layouts.mjs": $id_ba14692f,
   "/layouts/default.vue": $id_7689e89d

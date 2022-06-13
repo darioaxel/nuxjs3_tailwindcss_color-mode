@@ -10,7 +10,7 @@
         <option value="dark">Dark</option>
       </select>
     </p>
-    <nuxt class="mx-auto p-4" />
+    <slot class="mx-auto p-4" />
   </div>
 </template>
 
@@ -27,7 +27,7 @@ export default {
         content: "Nuxt.js with TailwindCSS example",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon" }],
   },
 };
 </script>
