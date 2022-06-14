@@ -1,0 +1,4 @@
+### Nuxtjs ###
+# Nuxt build
+.nuxt
+node_modules
