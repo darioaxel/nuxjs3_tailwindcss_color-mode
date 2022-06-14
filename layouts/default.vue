@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-800 dark:text-gray-200">
+  <div class=" dark:bg-themeBackground">
     <p class="p-4 pb-2">
       <select
         v-model="$colorMode.preference"
