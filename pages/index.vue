@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div
-      class="max-w-sm rounded overflow-hidden shadow-lg mb-4 dark:bg-gray-900"
+ <section class=" w-10/12 flex justify-around">
+  <div class="w-4/12">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg mb-4 dark:bg-themeBackground400"
     >
       <img
         class="w-full"
@@ -26,18 +26,6 @@
     </div>
  
   </div>
+  </section>
 </template>
 
-<script>
-import TButton from "~/components/TButton";
-
-export default {
-  components: {
-    TButton,
-  },
-};
-</script>
-
-<style lang="postcss" scoped>
-
-</style>
